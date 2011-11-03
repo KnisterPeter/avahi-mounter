@@ -1,0 +1,12 @@
+Package: avahi-mounter
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Markus Wolf <mail@markus-wolf.de>
+Installed-Size: 76
+Depends: python, avahi-daemon, libnss-mdns, python-avahi, nfs-common
+Conflicts: vdr-addon-avahi-mounter
+Section: net
+Priority: extra
+Homepage: <insert the upstream URL, if relevant>
+Description: Avahi auto mounter
+ Tool to auto-mount shared available via avahi

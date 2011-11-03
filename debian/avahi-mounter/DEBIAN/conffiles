@@ -1,0 +1,2 @@
+/etc/default/avahi-mounter
+/etc/init/avahi-mounter.conf

@@ -1,0 +1,16 @@
+Source: avahi-mounter
+Section: net
+Priority: extra
+Maintainer: Markus Wolf <mail@markus-wolf.de>
+Build-Depends: debhelper (>= 8.0.0), python-support
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/avahi-mounter.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/avahi-mounter.git;a=summary
+
+Package: avahi-mounter
+Architecture: all
+Depends: ${python:Depends}, avahi-daemon, python, libnss-mdns, python-avahi, nfs-common
+Conflicts: vdr-addon-avahi-mounter
+Description: Avahi auto mounter
+ Tool to auto-mount shared available via avahi
